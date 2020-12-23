@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 17px;
+}
+.top-container{
+  position: relative;
+  text-align: center;
+}
+.centered h1 {
+  position: absolute;
+  left:280px;
+  top:230px;
+
+}
+.centered h2 {
+  position: absolute;
+  left:500px;
+  top:250px;
+
+}
+.centered p {
+  position: absolute;
+  left:700px;
+  top:370px;
+  font-weight: bold;
+
+}
+.name{
+  width: 30%;
+  margin: auto;
+  line-height: 5; 
+}
+h1 {
+  margin-top: 10px auto 0 auto 0;
+  font-family: 'Playball', cursive;
+  font-size: 20px;
+  color: #000000;
+  margin: auto;
+  width: 40%;
+  line-height: 2;
+}
+h2 {
+  font-family: 'Playball', cursive;
+  color: #000000;
+  font-weight: normal;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999E;
+}
+
+.middle-container {
+  margin: 30px 0;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+.self{
+  font-family: 'Playball', cursive;
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+  font-size: 150%;
+}
+.working{
+  background-color: #f6f5f1;
+}
+
+.bottom-container {
+  background-color: #637373;
+  padding :12px 0 15px; 
+  text-align: center;
+  font-family: 'Playball', cursive;
+  font-size: 20px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.big-cloud{
+  text-align: center;
+  padding: 1% 27%;
+}
+.computer{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.chilli{
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+hr{
+  border: dotted #EAF6F6 6PX;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+} 
+.contact-message{
+width: 30%;
+margin: 40px auto 60px;
+}
+.contact-me{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f4f4f2;
+}
+a{
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.btn {
+	background-color:#7892c2;
+	border-radius:9px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:17px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 2px #283966;
+}
+.btn:hover {
+	background-color:#476e9e;
+}
+.skill{
+  text-align: center;
+  padding: 3% 20%;
+}
+.knowledge{
+  width: 60%;
+margin: 40px auto 60px;
+}
+td{
+  padding: 8px;
+}
+.Contact{
+  text-align: center;
+}
+.fa {
+  padding: 17px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 50px;
+  line-height: 110px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background:#f40083;
+  color: white;
+}
+.fa-github{
+  background-color: #333;
+}
+.navbar{
+  background-color: #898b8a;
+}
+
+.navbar-nav a:hover{
+  border-bottom: 2px #fff solid;
+}
